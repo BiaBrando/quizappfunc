@@ -11,7 +11,7 @@
   <Image
       Source="fundo.gif"
       Aspect="AspectFill"
-      SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+      IsAnimationPlaying="True" />
 
   <Label
       Text="Quiz sobre o Egito"
