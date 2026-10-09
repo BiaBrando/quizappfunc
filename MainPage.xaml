@@ -17,6 +17,7 @@
       Text="Quiz sobre o Egito"
       FontSize="32"
       TextColor="#FFBC1C"
+      FontAttributes="Bold"
      />
 
   <Button
