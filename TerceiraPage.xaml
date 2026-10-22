@@ -5,7 +5,7 @@
              Title="TerceiraPage">
     <VerticalStackLayout>
         <Label 
-            Text="Terceira página"
+            Text="Questão 2/10"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
