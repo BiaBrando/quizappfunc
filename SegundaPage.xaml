@@ -7,7 +7,7 @@
 
     <Grid>
         <Image
-            Source="fundo.gif"
+            Source="fundoquiz.gif"
             Aspect="AspectFill"
             IsAnimationPlaying="True" />
 
