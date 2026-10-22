@@ -17,7 +17,7 @@
             VerticalOptions="Center">
 
             <Label
-                Text="Welcome to .NET MAUI!"
+                Text="Questão 1/10"
                 FontSize="24"
                 TextColor="#FFBC1C"
                 FontAttributes="Bold"
