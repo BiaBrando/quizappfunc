@@ -25,7 +25,7 @@
                 HorizontalTextAlignment="Center" />
 
             <Button
-                Text="Avançar para terceira página"
+                Text="Confirmar"
                 BackgroundColor="#C67F35"
                 TextColor="White"
                 Clicked="OnClicked"
