@@ -1,32 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="exNavigationPage.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+    <Grid>
+        <Image
+            Source="fundo.gif"
+            Aspect="AspectFill"
+            IsAnimationPlaying="True" />
 
-  <Image
-      Source="fundo.gif"
-      Aspect="AspectFill"
-      IsAnimationPlaying="True" />
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25"
+                VerticalOptions="Center">
 
-  <Label
-      Text="Quiz sobre o Egito"
-      FontSize="32"
-      TextColor="#FFBC1C"
-      FontAttributes="Bold"
-     />
+                <Label
+                    Text="Quiz sobre o Egito"
+                    FontSize="32"
+                    TextColor="#FFBC1C"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" />
 
-  <Button
-      x:Name="BtnNextPage"
-      Text="Começar o quiz" 
-      BackgroundColor="#C67F35"
-      Clicked="OnClicked"
-      HorizontalOptions="Fill" />
-        </VerticalStackLayout>
-    </ScrollView>
+                <Button
+                    x:Name="BtnNextPage"
+                    Text="Começar o quiz"
+                    BackgroundColor="#C67F35"
+                    Clicked="OnClicked"
+                    HorizontalOptions="Fill" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
 
 </ContentPage>
