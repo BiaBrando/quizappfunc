@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -10,19 +9,49 @@
             Source="fundoquiz.gif"
             Aspect="AspectFill"
             IsAnimationPlaying="True" />
-
+        <Label
+    Text="Questão 1/10"
+    FontSize="24"
+    TextColor="#D37F37"
+    FontAttributes="Bold"
+    HorizontalOptions="Center"
+    HorizontalTextAlignment="Center" />
+        
         <VerticalStackLayout
             Padding="30"
             Spacing="25"
             VerticalOptions="Center">
 
             <Label
-                Text="Questão 1/10"
-                FontSize="24"
-                TextColor="#FFBC1C"
+                Text="Como funcionava a questão da coleta de impostos no Egito Antigo?"
+                FontSize="20"
+                TextColor="#E05F77"
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center" />
+
+
+
+            <RadioButton Content="A) Com joias, ouro e outras pedras preciosas."
+                 GroupName="Resposta" />
+
+
+
+
+            <RadioButton Content="B) Os camponeses pagavam impostos com parte da sua produção."
+                 GroupName="Resposta" />
+
+
+
+            <RadioButton Content="C) Com moedas"
+                 GroupName="Resposta" />
+
+
+
+            <RadioButton Content="D) Todas as alternativas estão corretas"
+                 GroupName="Resposta" />
+
+
 
             <Button
                 Text="Confirmar"
