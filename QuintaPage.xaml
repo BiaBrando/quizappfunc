@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exNavigationPage.QuintaPage"
+             Title="QuintaPage">
+
+    <Grid>
+        <Image
+            Source="fundo.gif"
+            Aspect="AspectFill"
+            IsAnimationPlaying="True" />
+
+        <VerticalStackLayout
+            Padding="30"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Questão 4/10"
+                FontSize="24"
+                TextColor="#D37F37"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center" />
+
+            <Label
+                Text="Os egípcios acreditavam na vida após a morte. Qual prática funerária serve como prova dessa crença?"
+                FontSize="20"
+                TextColor="#E05F77"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center" />
+
+            <RadioButton Content="A) A construção de grandes templos para homenagear os deuses e realizar cerimônias religiosas."
+                         GroupName="Resposta" />
+
+            <RadioButton Content="B) A organização dos túmulos de acordo com a posição social ocupada pela pessoa em vida."
+                         GroupName="Resposta" />
+
+            <RadioButton Content="C) A colocação de alimentos, joias e objetos pessoais nos túmulos."
+                         GroupName="Resposta" />
+
+            <RadioButton Content="D) A construção de pirâmides próximas ao rio Nilo, facilitando o transporte de materiais usados nas cerimônias."
+                         GroupName="Resposta" />
+
+            <RadioButton Content="E) A realização de rituais pelos sacerdotes para manter a ordem religiosa e política do reino."
+                         GroupName="Resposta" />
+
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>
