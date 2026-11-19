@@ -24,26 +24,26 @@
                 HorizontalTextAlignment="Center" />
 
             <Label
-                Text="Os egípcios acreditavam na vida após a morte. Qual prática funerária serve como prova dessa crença?"
+                Text="Em que periodo ocorreu a conquista romana do Egito, em 30 a.c.?"
                 FontSize="20"
                 TextColor="#E05F77"
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center" />
 
-            <RadioButton Content="A) A construção de grandes templos para homenagear os deuses e realizar cerimônias religiosas."
+            <RadioButton Content="A) Antigo imperio"
                          GroupName="Resposta" />
 
-            <RadioButton Content="B) A organização dos túmulos de acordo com a posição social ocupada pela pessoa em vida."
+            <RadioButton Content="B) Novo imperio"
                          GroupName="Resposta" />
 
-            <RadioButton Content="C) A colocação de alimentos, joias e objetos pessoais nos túmulos."
+            <RadioButton Content="C) Segundo periodo intermediario"
                          GroupName="Resposta" />
 
-            <RadioButton Content="D) A construção de pirâmides próximas ao rio Nilo, facilitando o transporte de materiais usados nas cerimônias."
+            <RadioButton Content="D) Periodo Ptolomaico"
                          GroupName="Resposta" />
 
-            <RadioButton Content="E) A realização de rituais pelos sacerdotes para manter a ordem religiosa e política do reino."
+            <RadioButton Content="E) Médio periodo."
                          GroupName="Resposta" />
 
         </VerticalStackLayout>
