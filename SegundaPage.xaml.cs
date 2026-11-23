@@ -1,3 +1,4 @@
+
 namespace exNavigationPage;
 
 public partial class SegundaPage : ContentPage
@@ -13,20 +14,20 @@ public partial class SegundaPage : ContentPage
     {
         if (!corrigido)
         {
-            
-            alt2.BackgroundColor = Colors.Green;
+            if (alt2.IsChecked)
+            {
+                Pontuacao.Adicionar(1);
+            }
 
-         
+            alt2.BackgroundColor = Colors.Green;
             alt1.BackgroundColor = Colors.Red;
             alt3.BackgroundColor = Colors.Red;
             alt4.BackgroundColor = Colors.Red;
 
             corrigido = true;
-
             return;
         }
 
-      
         await Navigation.PushAsync(new TerceiraPage());
     }
 }
