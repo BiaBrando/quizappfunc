@@ -24,7 +24,7 @@
                 HorizontalTextAlignment="Center" />
 
     <Label
-    Text="Em que período ocorreu a conquista romana do Egito, em 30 a.C.?"
+    Text="A religião estava presente em vários aspectos da vida dos egípcios. A crença na vida após a morte influenciava seus costumes e práticas. Isso pode ser observado:"
     FontSize="20"
     TextColor="#E05F77"
     FontAttributes="Bold"
