@@ -31,20 +31,25 @@
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center" />
 
-            <RadioButton Content="A) na construção de túmulos e na preparação dos corpos para a vida após a morte."
-                         GroupName="Resposta" />
+        <RadioButton x:Name="alt1"
+    Content="A) na construção de túmulos e na preparação dos corpos para a vida após a morte."
+    GroupName="Resposta" />
 
-            <RadioButton Content="B) na ideia de que apenas o faraó poderia receber vida após a morte."
-                         GroupName="Resposta" />
+<RadioButton x:Name="alt2"
+    Content="B) na ideia de que apenas o faraó poderia receber vida após a morte."
+    GroupName="Resposta" />
 
-            <RadioButton Content="C) no abandono dos templos, já que os egípcios davam prioridade aos túmulos."
-                         GroupName="Resposta" />
+<RadioButton x:Name="alt3"
+    Content="C) no abandono dos templos, já que os egípcios davam prioridade aos túmulos."
+    GroupName="Resposta" />
 
-            <RadioButton Content="D) na substituição dos rituais religiosos por explicações baseadas apenas na ciência."
-                         GroupName="Resposta" />
+<RadioButton x:Name="alt4"
+    Content="D) na substituição dos rituais religiosos por explicações baseadas apenas na ciência."
+    GroupName="Resposta" />
 
-            <RadioButton Content="E) na crença de que a vida após a morte dependia exclusivamente da riqueza de cada pessoa."
-                         GroupName="Resposta" />
+<RadioButton x:Name="alt5"
+    Content="E) na crença de que a vida após a morte dependia exclusivamente da riqueza de cada pessoa."
+    GroupName="Resposta" />
 
             <Button
                 Text="Confirmar"
