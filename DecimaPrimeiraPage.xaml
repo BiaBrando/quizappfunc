@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exNavigationPage.DecimaPrimeiraPage"
+             Title="Questão 10">
+
+    <Grid>
+        <Image Source="fundo.gif" Aspect="AspectFill" IsAnimationPlaying="True" />
+
+        <ScrollView>
+            <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+                <Label Text="Questão 10/10" FontSize="32" TextColor="#FFBC1C" FontAttributes="Bold"
+                       HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                <Label Text="Há aproximadamente quantos anos surgiu a civilização egípcia antiga?"
+                       FontSize="20" TextColor="#E05F77" FontAttributes="Bold"
+                       HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                <RadioButton x:Name="alt1" Content="A) 2.500 anos" GroupName="Resposta" />
+                <RadioButton x:Name="alt2" Content="B) 3.000 anos" GroupName="Resposta" />
+                <RadioButton x:Name="alt3" Content="C) 4.000 anos" GroupName="Resposta" />
+                <RadioButton x:Name="alt4" Content="D) 5.000 anos" GroupName="Resposta" />
+                <RadioButton x:Name="alt5" Content="E) 6.500 anos" GroupName="Resposta" />
+                <Button Text="Conferir resultado" Clicked="OnClicked" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
