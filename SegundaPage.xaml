@@ -4,19 +4,20 @@
              x:Class="exNavigationPage.SegundaPage"
              Title="SegundaPage">
 
-    <Grid>
+ <Grid>
         <Image
             Source="fundoquiz.gif"
             Aspect="AspectFill"
             IsAnimationPlaying="True" />
+
         <Label
-    Text="Questão 1/10"
-    FontSize="24"
-    TextColor="#D37F37"
-    FontAttributes="Bold"
-    HorizontalOptions="Center"
-    HorizontalTextAlignment="Center" />
-        
+            Text="Questão 1/10"
+            FontSize="24"
+            TextColor="#D37F37"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center" />
+
         <VerticalStackLayout
             Padding="30"
             Spacing="25"
@@ -30,28 +31,25 @@
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center" />
 
+            <RadioButton
+                x:Name="alt1"
+                Content="A) Com joias, ouro e outras pedras preciosas."
+                GroupName="Resposta" />
 
+            <RadioButton
+                x:Name="alt2"
+                Content="B) Os camponeses pagavam impostos com parte da sua produção."
+                GroupName="Resposta" />
 
-            <RadioButton Content="A) Com joias, ouro e outras pedras preciosas."
-                 GroupName="Resposta" />
+            <RadioButton
+                x:Name="alt3"
+                Content="C) Com moedas"
+                GroupName="Resposta" />
 
-
-
-
-            <RadioButton Content="B) Os camponeses pagavam impostos com parte da sua produção."
-                 GroupName="Resposta" />
-
-
-
-            <RadioButton Content="C) Com moedas"
-                 GroupName="Resposta" />
-
-
-
-            <RadioButton Content="D) Todas as alternativas estão corretas"
-                 GroupName="Resposta" />
-
-
+            <RadioButton
+                x:Name="alt4"
+                Content="D) Todas as alternativas estão corretas"
+                GroupName="Resposta" />
 
             <Button
                 Text="Confirmar"
@@ -62,5 +60,6 @@
 
         </VerticalStackLayout>
     </Grid>
+
 
 </ContentPage>
