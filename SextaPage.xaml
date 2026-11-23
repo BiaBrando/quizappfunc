@@ -22,6 +22,37 @@
                 FontAttributes="Bold"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center" />
+
+    <Label
+    Text="Em que período ocorreu a conquista romana do Egito, em 30 a.C.?"
+    FontSize="20"
+    TextColor="#E05F77"
+    FontAttributes="Bold"
+    HorizontalOptions="Center"
+    HorizontalTextAlignment="Center" />
+
+<RadioButton x:Name="alt1"
+    Content="A) Antigo Império"
+    GroupName="Resposta" />
+
+<RadioButton x:Name="alt2"
+    Content="B) Novo Império"
+    GroupName="Resposta" />
+
+<RadioButton x:Name="alt3"
+    Content="C) Segundo Período Intermediário"
+    GroupName="Resposta" />
+
+<RadioButton x:Name="alt4"
+    Content="D) Período Ptolomaico"
+    GroupName="Resposta" />
+
+<RadioButton x:Name="alt5"
+    Content="E) Médio Império"
+    GroupName="Resposta" />
+
+
+
         </VerticalStackLayout>
     </Grid>
 </ContentPage>
