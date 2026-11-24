@@ -8,6 +8,7 @@ public partial class QuartaPage : ContentPage
     public QuartaPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
