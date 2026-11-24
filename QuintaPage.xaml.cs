@@ -7,6 +7,7 @@ public partial class QuintaPage : ContentPage
     public QuintaPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
