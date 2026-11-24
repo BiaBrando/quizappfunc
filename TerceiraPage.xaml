@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="exNavigationPage.TerceiraPage"
-             Title="TerceiraPage">
+             Title="Questão 2">
 
     <Grid>
         <Image
@@ -10,20 +10,56 @@
             Aspect="AspectFill"
             IsAnimationPlaying="True" />
 
-        <VerticalStackLayout
-            Padding="30"
-            Spacing="25"
-            VerticalOptions="Center">
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="30"
+                Spacing="20"
+                VerticalOptions="Center">
 
-            <Label
-                Text="Questão 2/10"
-                FontSize="32"
-                TextColor="#FFBC1C"
-                FontAttributes="Bold"
-                HorizontalOptions="Center"
-                HorizontalTextAlignment="Center" />
+                <Label
+                    Text="Questão 2/10"
+                    FontSize="32"
+                    TextColor="#FFBC1C"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center" />
 
-        </VerticalStackLayout>
+                <Label
+                    Text="Como a política, a religião e a sociedade contribuíam para manter o poder do faraó no Egito Antigo?"
+                    FontSize="20"
+                    TextColor="#E05F77"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center" />
+
+                <RadioButton
+                    x:Name="alt1"
+                    Content="A) O faraó dividia o poder com os sacerdotes, que cuidavam das decisões religiosas e econômicas."
+                    GroupName="Resposta" />
+
+                <RadioButton
+                    x:Name="alt2"
+                    Content="B) A religião reforçava o poder do faraó, e a organização social ajudava a manter o funcionamento do reino."
+                    GroupName="Resposta" />
+
+                <RadioButton
+                    x:Name="alt3"
+                    Content="C) O poder do faraó dependia da aprovação dos camponeses, responsáveis pela produção de alimentos."
+                    GroupName="Resposta" />
+
+                <RadioButton
+                    x:Name="alt4"
+                    Content="D) A riqueza do Egito garantia o poder do faraó, mesmo sem o apoio dos sacerdotes e dos funcionários do governo."
+                    GroupName="Resposta" />
+
+                <Button
+                    Text="Confirmar / Próxima"
+                    BackgroundColor="#C67F35"
+                    TextColor="White"
+                    Clicked="OnClicked"
+                    HorizontalOptions="Fill" />
+
+            </VerticalStackLayout>
+        </ScrollView>
     </Grid>
-
 </ContentPage>
