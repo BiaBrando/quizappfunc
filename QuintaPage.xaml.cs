@@ -1,9 +1,8 @@
-
 namespace exNavigationPage;
 
 public partial class QuintaPage : ContentPage
 {
-    bool corrigido = false;
+    private bool corrigido;
 
     public QuintaPage()
     {
