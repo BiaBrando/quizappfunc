@@ -7,6 +7,7 @@ public partial class TerceiraPage : ContentPage
     public TerceiraPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
