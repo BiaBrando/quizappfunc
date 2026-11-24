@@ -8,6 +8,7 @@ public partial class SegundaPage : ContentPage
     public SegundaPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
