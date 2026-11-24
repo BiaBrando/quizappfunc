@@ -7,6 +7,7 @@ public partial class SetimaPage : ContentPage
     public SetimaPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
