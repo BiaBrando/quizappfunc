@@ -7,6 +7,7 @@ public partial class DecimaPrimeiraPage : ContentPage
     public DecimaPrimeiraPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
