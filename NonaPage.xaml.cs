@@ -7,6 +7,7 @@ public partial class NonaPage : ContentPage
     public NonaPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
