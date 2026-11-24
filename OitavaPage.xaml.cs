@@ -6,7 +6,7 @@ public partial class OitavaPage : ContentPage
 
     public OitavaPage()
     {
-        InitializeComponent();
+        InitializeComponent(); NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
