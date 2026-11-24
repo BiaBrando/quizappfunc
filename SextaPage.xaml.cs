@@ -7,6 +7,7 @@ public partial class SextaPage : ContentPage
     public SextaPage()
     {
         InitializeComponent();
+         NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
