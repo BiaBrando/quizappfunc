@@ -5,7 +5,7 @@
              Title="Resultado">
 
     <Grid>
-        <Image Source="fundo.gif" Aspect="AspectFill" IsAnimationPlaying="True" />
+        <Image Source="final.gif" Aspect="AspectFill" IsAnimationPlaying="True" />
 
         <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
             <Label Text="Quiz concluído!"
