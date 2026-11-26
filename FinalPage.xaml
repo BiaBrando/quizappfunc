@@ -10,7 +10,7 @@
         <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
             <Label Text="Quiz concluído!"
                    FontSize="32"
-                   TextColor="#FFBC1C"
+                   TextColor="#0047AB"
                    FontAttributes="Bold"
                    HorizontalOptions="Center"
                    HorizontalTextAlignment="Center" />
