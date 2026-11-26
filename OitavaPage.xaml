@@ -5,7 +5,7 @@
              Title="Questão 7">
 
     <Grid>
-        <Image Source="fundo.gif" Aspect="AspectFill" IsAnimationPlaying="True" />
+        <Image Source="fundoquiz.gif" Aspect="AspectFill" IsAnimationPlaying="True" />
 
         <ScrollView>
             <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
