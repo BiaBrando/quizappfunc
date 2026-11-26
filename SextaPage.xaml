@@ -56,7 +56,7 @@
  
     GroupName="Resposta" />
 
-
+ <Button Text="Confirmar / Próxima" Clicked="OnClicked" />
 
         </VerticalStackLayout>
     </Grid>
