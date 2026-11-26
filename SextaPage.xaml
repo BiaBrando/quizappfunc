@@ -38,22 +38,22 @@
 
 <RadioButton x:Name="alt2"
     Content="B) na ideia de que apenas o faraó poderia receber algum tipo de vida após a morte."
-  TextColor="#0047AB"
+
     GroupName="Resposta" />
 
 <RadioButton x:Name="alt3"
     Content="C) no abandono dos templos, já que os egípcios davam prioridade aos túmulos."
-  TextColor="#0047AB"
+
     GroupName="Resposta" />
 
 <RadioButton x:Name="alt4"
     Content="D) na substituição dos rituais religiosos por explicações baseadas apenas na ciência."
-  TextColor="#0047AB"
+
     GroupName="Resposta" />
 
 <RadioButton x:Name="alt5"
     Content="E) na crença de que a vida após a morte dependia exclusivamente da riqueza de cada pessoa."
-  TextColor="#0047AB"
+ 
     GroupName="Resposta" />
 
 
