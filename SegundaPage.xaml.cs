@@ -15,15 +15,15 @@ public partial class SegundaPage : ContentPage
     {
         if (!corrigido)
         {
-            if (alt2.IsChecked)
-            {
-                Pontuacao.Adicionar(1);
-            }
+           if (alt4.IsChecked)
+{
+    Pontuacao.Adicionar(1);
+}
 
-            alt2.BackgroundColor = Colors.Green;
-            alt1.BackgroundColor = Colors.Red;
-            alt3.BackgroundColor = Colors.Red;
-            alt4.BackgroundColor = Colors.Red;
+alt1.BackgroundColor = Colors.Red;
+alt2.BackgroundColor = Colors.Red;
+alt3.BackgroundColor = Colors.Red;
+alt4.BackgroundColor = Colors.Green;
 
             corrigido = true;
             return;
