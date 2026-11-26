@@ -1,8 +1,8 @@
 namespace exNavigationPage;
 
-public partial class FinalPage : ContentPage
+public partial class UltimaPage : ContentPage
 {
-    public FinalPage()
+    public UltimaPage()
     {
         InitializeComponent();
         ResultadoLabel.Text = $"Você acertou {Pontuacao.total} de 10 questões!";
