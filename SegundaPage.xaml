@@ -34,21 +34,25 @@
             <RadioButton
                 x:Name="alt1"
                 Content="A) Com joias, ouro e outras pedras preciosas."
+                TextColor="#0047AB"
                 GroupName="Resposta" />
 
             <RadioButton
                 x:Name="alt2"
                 Content="B) Os camponeses pagavam impostos com parte da sua produção."
+                TextColor="#0047AB"
                 GroupName="Resposta" />
 
             <RadioButton
                 x:Name="alt3"
                 Content="C) Com moedas"
+                TextColor="#0047AB"
                 GroupName="Resposta" />
 
             <RadioButton
                 x:Name="alt4"
                 Content="D) Todas as alternativas estão corretas"
+                TextColor="#0047AB"
                 GroupName="Resposta" />
 
             <Button
