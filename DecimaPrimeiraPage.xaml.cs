@@ -7,7 +7,7 @@ public partial class DecimaPrimeiraPage : ContentPage
     public DecimaPrimeiraPage()
     {
         InitializeComponent();
-         NavigationPage.SetHasBackButton(this, false);
+        NavigationPage.SetHasBackButton(this, false);
     }
 
     private async void OnClicked(object sender, EventArgs e)
@@ -29,6 +29,6 @@ public partial class DecimaPrimeiraPage : ContentPage
             return;
         }
 
-        await DisplayAlert("Quiz concluído", $"Sua pontuação: {Pontuacao.total}/10", "OK");
+        await Navigation.PushAsync(new UltimaPage());
     }
 }
